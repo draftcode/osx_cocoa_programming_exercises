@@ -1,0 +1,243 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		095065FA144FF0EF007776F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 095065F9144FF0EF007776F4 /* Foundation.framework */; };
+		095065FD144FF0EF007776F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 095065FC144FF0EF007776F4 /* main.m */; };
+		09506601144FF0EF007776F4 /* lottery.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 09506600144FF0EF007776F4 /* lottery.1 */; };
+		09506609144FF435007776F4 /* LotteryEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 09506608144FF435007776F4 /* LotteryEntry.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		095065F3144FF0EF007776F4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				09506601144FF0EF007776F4 /* lottery.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		095065F5144FF0EF007776F4 /* lottery */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = lottery; sourceTree = BUILT_PRODUCTS_DIR; };
+		095065F9144FF0EF007776F4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		095065FC144FF0EF007776F4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		095065FF144FF0EF007776F4 /* lottery-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "lottery-Prefix.pch"; sourceTree = "<group>"; };
+		09506600144FF0EF007776F4 /* lottery.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = lottery.1; sourceTree = "<group>"; };
+		09506607144FF435007776F4 /* LotteryEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LotteryEntry.h; sourceTree = "<group>"; };
+		09506608144FF435007776F4 /* LotteryEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LotteryEntry.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		095065F2144FF0EF007776F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				095065FA144FF0EF007776F4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		095065EA144FF0EF007776F4 = {
+			isa = PBXGroup;
+			children = (
+				095065FB144FF0EF007776F4 /* lottery */,
+				095065F8144FF0EF007776F4 /* Frameworks */,
+				095065F6144FF0EF007776F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		095065F6144FF0EF007776F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				095065F5144FF0EF007776F4 /* lottery */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		095065F8144FF0EF007776F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				095065F9144FF0EF007776F4 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		095065FB144FF0EF007776F4 /* lottery */ = {
+			isa = PBXGroup;
+			children = (
+				095065FC144FF0EF007776F4 /* main.m */,
+				09506607144FF435007776F4 /* LotteryEntry.h */,
+				09506608144FF435007776F4 /* LotteryEntry.m */,
+				09506600144FF0EF007776F4 /* lottery.1 */,
+				095065FE144FF0EF007776F4 /* Supporting Files */,
+			);
+			path = lottery;
+			sourceTree = "<group>";
+		};
+		095065FE144FF0EF007776F4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				095065FF144FF0EF007776F4 /* lottery-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		095065F4144FF0EF007776F4 /* lottery */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09506604144FF0EF007776F4 /* Build configuration list for PBXNativeTarget "lottery" */;
+			buildPhases = (
+				095065F1144FF0EF007776F4 /* Sources */,
+				095065F2144FF0EF007776F4 /* Frameworks */,
+				095065F3144FF0EF007776F4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lottery;
+			productName = lottery;
+			productReference = 095065F5144FF0EF007776F4 /* lottery */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		095065EC144FF0EF007776F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Tokyo Institute of Technology";
+			};
+			buildConfigurationList = 095065EF144FF0EF007776F4 /* Build configuration list for PBXProject "lottery" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 095065EA144FF0EF007776F4;
+			productRefGroup = 095065F6144FF0EF007776F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				095065F4144FF0EF007776F4 /* lottery */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		095065F1144FF0EF007776F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				095065FD144FF0EF007776F4 /* main.m in Sources */,
+				09506609144FF435007776F4 /* LotteryEntry.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		09506602144FF0EF007776F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = unsupported;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		09506603144FF0EF007776F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = unsupported;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		09506605144FF0EF007776F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "lottery/lottery-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		09506606144FF0EF007776F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "lottery/lottery-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		095065EF144FF0EF007776F4 /* Build configuration list for PBXProject "lottery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09506602144FF0EF007776F4 /* Debug */,
+				09506603144FF0EF007776F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09506604144FF0EF007776F4 /* Build configuration list for PBXNativeTarget "lottery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09506605144FF0EF007776F4 /* Debug */,
+				09506606144FF0EF007776F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 095065EC144FF0EF007776F4 /* Project object */;
+}

@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		091814D314555FD500EA1241 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 091814D214555FD500EA1241 /* Cocoa.framework */; };
+		091814DD14555FD500EA1241 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 091814DB14555FD500EA1241 /* InfoPlist.strings */; };
+		091814DF14555FD500EA1241 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 091814DE14555FD500EA1241 /* main.m */; };
+		091814E314555FD500EA1241 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 091814E114555FD500EA1241 /* Credits.rtf */; };
+		091814E614555FD500EA1241 /* MyDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 091814E514555FD500EA1241 /* MyDocument.m */; };
+		091814E914555FD500EA1241 /* MyDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = 091814E714555FD500EA1241 /* MyDocument.xib */; };
+		091814EC14555FD500EA1241 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 091814EA14555FD500EA1241 /* MainMenu.xib */; };
+		091814F41455601200EA1241 /* OvalDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 091814F31455601200EA1241 /* OvalDrawView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		091814CE14555FD500EA1241 /* DrawOval.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawOval.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		091814D214555FD500EA1241 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		091814D514555FD500EA1241 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		091814D614555FD500EA1241 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		091814D714555FD500EA1241 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		091814DA14555FD500EA1241 /* DrawOval-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DrawOval-Info.plist"; sourceTree = "<group>"; };
+		091814DC14555FD500EA1241 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		091814DE14555FD500EA1241 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		091814E014555FD500EA1241 /* DrawOval-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DrawOval-Prefix.pch"; sourceTree = "<group>"; };
+		091814E214555FD500EA1241 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		091814E414555FD500EA1241 /* MyDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyDocument.h; sourceTree = "<group>"; };
+		091814E514555FD500EA1241 /* MyDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyDocument.m; sourceTree = "<group>"; };
+		091814E814555FD500EA1241 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MyDocument.xib; sourceTree = "<group>"; };
+		091814EB14555FD500EA1241 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		091814F21455601200EA1241 /* OvalDrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OvalDrawView.h; sourceTree = "<group>"; };
+		091814F31455601200EA1241 /* OvalDrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OvalDrawView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		091814CB14555FD500EA1241 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				091814D314555FD500EA1241 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		091814C314555FD500EA1241 = {
+			isa = PBXGroup;
+			children = (
+				091814D814555FD500EA1241 /* DrawOval */,
+				091814D114555FD500EA1241 /* Frameworks */,
+				091814CF14555FD500EA1241 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		091814CF14555FD500EA1241 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				091814CE14555FD500EA1241 /* DrawOval.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		091814D114555FD500EA1241 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				091814D214555FD500EA1241 /* Cocoa.framework */,
+				091814D414555FD500EA1241 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		091814D414555FD500EA1241 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				091814D514555FD500EA1241 /* AppKit.framework */,
+				091814D614555FD500EA1241 /* CoreData.framework */,
+				091814D714555FD500EA1241 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		091814D814555FD500EA1241 /* DrawOval */ = {
+			isa = PBXGroup;
+			children = (
+				091814E414555FD500EA1241 /* MyDocument.h */,
+				091814E514555FD500EA1241 /* MyDocument.m */,
+				091814E714555FD500EA1241 /* MyDocument.xib */,
+				091814F21455601200EA1241 /* OvalDrawView.h */,
+				091814F31455601200EA1241 /* OvalDrawView.m */,
+				091814EA14555FD500EA1241 /* MainMenu.xib */,
+				091814D914555FD500EA1241 /* Supporting Files */,
+			);
+			path = DrawOval;
+			sourceTree = "<group>";
+		};
+		091814D914555FD500EA1241 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				091814DA14555FD500EA1241 /* DrawOval-Info.plist */,
+				091814DB14555FD500EA1241 /* InfoPlist.strings */,
+				091814DE14555FD500EA1241 /* main.m */,
+				091814E014555FD500EA1241 /* DrawOval-Prefix.pch */,
+				091814E114555FD500EA1241 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		091814CD14555FD500EA1241 /* DrawOval */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 091814EF14555FD500EA1241 /* Build configuration list for PBXNativeTarget "DrawOval" */;
+			buildPhases = (
+				091814CA14555FD500EA1241 /* Sources */,
+				091814CB14555FD500EA1241 /* Frameworks */,
+				091814CC14555FD500EA1241 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DrawOval;
+			productName = DrawOval;
+			productReference = 091814CE14555FD500EA1241 /* DrawOval.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		091814C514555FD500EA1241 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Tokyo Institute of Technology";
+			};
+			buildConfigurationList = 091814C814555FD500EA1241 /* Build configuration list for PBXProject "DrawOval" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 091814C314555FD500EA1241;
+			productRefGroup = 091814CF14555FD500EA1241 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				091814CD14555FD500EA1241 /* DrawOval */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		091814CC14555FD500EA1241 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				091814DD14555FD500EA1241 /* InfoPlist.strings in Resources */,
+				091814E314555FD500EA1241 /* Credits.rtf in Resources */,
+				091814E914555FD500EA1241 /* MyDocument.xib in Resources */,
+				091814EC14555FD500EA1241 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		091814CA14555FD500EA1241 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				091814DF14555FD500EA1241 /* main.m in Sources */,
+				091814E614555FD500EA1241 /* MyDocument.m in Sources */,
+				091814F41455601200EA1241 /* OvalDrawView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		091814DB14555FD500EA1241 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				091814DC14555FD500EA1241 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		091814E114555FD500EA1241 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				091814E214555FD500EA1241 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		091814E714555FD500EA1241 /* MyDocument.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				091814E814555FD500EA1241 /* en */,
+			);
+			name = MyDocument.xib;
+			sourceTree = "<group>";
+		};
+		091814EA14555FD500EA1241 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				091814EB14555FD500EA1241 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		091814ED14555FD500EA1241 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		091814EE14555FD500EA1241 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		091814F014555FD500EA1241 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DrawOval/DrawOval-Prefix.pch";
+				INFOPLIST_FILE = "DrawOval/DrawOval-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		091814F114555FD500EA1241 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DrawOval/DrawOval-Prefix.pch";
+				INFOPLIST_FILE = "DrawOval/DrawOval-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		091814C814555FD500EA1241 /* Build configuration list for PBXProject "DrawOval" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				091814ED14555FD500EA1241 /* Debug */,
+				091814EE14555FD500EA1241 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		091814EF14555FD500EA1241 /* Build configuration list for PBXNativeTarget "DrawOval" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				091814F014555FD500EA1241 /* Debug */,
+				091814F114555FD500EA1241 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 091814C514555FD500EA1241 /* Project object */;
+}

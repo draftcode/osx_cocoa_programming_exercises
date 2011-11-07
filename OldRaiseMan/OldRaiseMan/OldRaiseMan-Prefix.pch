@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'OldRaiseMan' target in the 'OldRaiseMan' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

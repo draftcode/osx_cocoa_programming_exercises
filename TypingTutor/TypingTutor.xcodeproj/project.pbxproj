@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		091815051455956900EA1241 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 091815041455956900EA1241 /* Cocoa.framework */; };
+		0918150F1455956900EA1241 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0918150D1455956900EA1241 /* InfoPlist.strings */; };
+		091815111455956900EA1241 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 091815101455956900EA1241 /* main.m */; };
+		091815151455956900EA1241 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 091815131455956900EA1241 /* Credits.rtf */; };
+		0918151B1455956900EA1241 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 091815191455956900EA1241 /* MainMenu.xib */; };
+		091815231455958600EA1241 /* BigLetterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 091815221455958600EA1241 /* BigLetterView.m */; };
+		0918152E1455AE9A00EA1241 /* FirstLetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0918152D1455AE9A00EA1241 /* FirstLetter.m */; };
+		09B27474145925870077841C /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B27473145925870077841C /* AppController.m */; };
+		09B2748414593DF20077841C /* ColorFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B2748314593DF20077841C /* ColorFormatter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		091815001455956900EA1241 /* TypingTutor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TypingTutor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		091815041455956900EA1241 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		091815071455956900EA1241 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		091815081455956900EA1241 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		091815091455956900EA1241 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0918150C1455956900EA1241 /* TypingTutor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TypingTutor-Info.plist"; sourceTree = "<group>"; };
+		0918150E1455956900EA1241 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		091815101455956900EA1241 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		091815121455956900EA1241 /* TypingTutor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TypingTutor-Prefix.pch"; sourceTree = "<group>"; };
+		091815141455956900EA1241 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		0918151A1455956900EA1241 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		091815211455958600EA1241 /* BigLetterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BigLetterView.h; sourceTree = "<group>"; };
+		091815221455958600EA1241 /* BigLetterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BigLetterView.m; sourceTree = "<group>"; };
+		0918152C1455AE9A00EA1241 /* FirstLetter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstLetter.h; sourceTree = "<group>"; };
+		0918152D1455AE9A00EA1241 /* FirstLetter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstLetter.m; sourceTree = "<group>"; };
+		09B27472145925870077841C /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
+		09B27473145925870077841C /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
+		09B2748214593DF20077841C /* ColorFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ColorFormatter.h; path = ../ColorFormatter.h; sourceTree = "<group>"; };
+		09B2748314593DF20077841C /* ColorFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ColorFormatter.m; path = ../ColorFormatter.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		091814FD1455956900EA1241 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				091815051455956900EA1241 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		091814F51455956900EA1241 = {
+			isa = PBXGroup;
+			children = (
+				0918150A1455956900EA1241 /* TypingTutor */,
+				091815031455956900EA1241 /* Frameworks */,
+				091815011455956900EA1241 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		091815011455956900EA1241 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				091815001455956900EA1241 /* TypingTutor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		091815031455956900EA1241 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				091815041455956900EA1241 /* Cocoa.framework */,
+				091815061455956900EA1241 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		091815061455956900EA1241 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				091815071455956900EA1241 /* AppKit.framework */,
+				091815081455956900EA1241 /* CoreData.framework */,
+				091815091455956900EA1241 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		0918150A1455956900EA1241 /* TypingTutor */ = {
+			isa = PBXGroup;
+			children = (
+				09B2748214593DF20077841C /* ColorFormatter.h */,
+				09B2748314593DF20077841C /* ColorFormatter.m */,
+				091815191455956900EA1241 /* MainMenu.xib */,
+				091815211455958600EA1241 /* BigLetterView.h */,
+				091815221455958600EA1241 /* BigLetterView.m */,
+				09B27472145925870077841C /* AppController.h */,
+				09B27473145925870077841C /* AppController.m */,
+				0918152C1455AE9A00EA1241 /* FirstLetter.h */,
+				0918152D1455AE9A00EA1241 /* FirstLetter.m */,
+				0918150B1455956900EA1241 /* Supporting Files */,
+			);
+			path = TypingTutor;
+			sourceTree = "<group>";
+		};
+		0918150B1455956900EA1241 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0918150C1455956900EA1241 /* TypingTutor-Info.plist */,
+				0918150D1455956900EA1241 /* InfoPlist.strings */,
+				091815101455956900EA1241 /* main.m */,
+				091815121455956900EA1241 /* TypingTutor-Prefix.pch */,
+				091815131455956900EA1241 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		091814FF1455956900EA1241 /* TypingTutor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0918151E1455956900EA1241 /* Build configuration list for PBXNativeTarget "TypingTutor" */;
+			buildPhases = (
+				091814FC1455956900EA1241 /* Sources */,
+				091814FD1455956900EA1241 /* Frameworks */,
+				091814FE1455956900EA1241 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TypingTutor;
+			productName = TypingTutor;
+			productReference = 091815001455956900EA1241 /* TypingTutor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		091814F71455956900EA1241 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Tokyo Institute of Technology";
+			};
+			buildConfigurationList = 091814FA1455956900EA1241 /* Build configuration list for PBXProject "TypingTutor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 091814F51455956900EA1241;
+			productRefGroup = 091815011455956900EA1241 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				091814FF1455956900EA1241 /* TypingTutor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		091814FE1455956900EA1241 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0918150F1455956900EA1241 /* InfoPlist.strings in Resources */,
+				091815151455956900EA1241 /* Credits.rtf in Resources */,
+				0918151B1455956900EA1241 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		091814FC1455956900EA1241 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				091815111455956900EA1241 /* main.m in Sources */,
+				091815231455958600EA1241 /* BigLetterView.m in Sources */,
+				0918152E1455AE9A00EA1241 /* FirstLetter.m in Sources */,
+				09B27474145925870077841C /* AppController.m in Sources */,
+				09B2748414593DF20077841C /* ColorFormatter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0918150D1455956900EA1241 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0918150E1455956900EA1241 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		091815131455956900EA1241 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				091815141455956900EA1241 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		091815191455956900EA1241 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0918151A1455956900EA1241 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0918151C1455956900EA1241 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0918151D1455956900EA1241 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0918151F1455956900EA1241 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TypingTutor/TypingTutor-Prefix.pch";
+				INFOPLIST_FILE = "TypingTutor/TypingTutor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		091815201455956900EA1241 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TypingTutor/TypingTutor-Prefix.pch";
+				INFOPLIST_FILE = "TypingTutor/TypingTutor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		091814FA1455956900EA1241 /* Build configuration list for PBXProject "TypingTutor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0918151C1455956900EA1241 /* Debug */,
+				0918151D1455956900EA1241 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0918151E1455956900EA1241 /* Build configuration list for PBXNativeTarget "TypingTutor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0918151F1455956900EA1241 /* Debug */,
+				091815201455956900EA1241 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 091814F71455956900EA1241 /* Project object */;
+}

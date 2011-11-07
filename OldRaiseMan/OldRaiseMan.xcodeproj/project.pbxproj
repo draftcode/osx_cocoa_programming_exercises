@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09513BDA14540F5D0093370C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09513BD914540F5D0093370C /* Cocoa.framework */; };
+		09513BE414540F5D0093370C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 09513BE214540F5D0093370C /* InfoPlist.strings */; };
+		09513BE614540F5D0093370C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09513BE514540F5D0093370C /* main.m */; };
+		09513BEA14540F5D0093370C /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 09513BE814540F5D0093370C /* Credits.rtf */; };
+		09513BED14540F5D0093370C /* MyDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 09513BEC14540F5D0093370C /* MyDocument.m */; };
+		09513BF014540F5D0093370C /* MyDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09513BEE14540F5D0093370C /* MyDocument.xib */; };
+		09513BF314540F5D0093370C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09513BF114540F5D0093370C /* MainMenu.xib */; };
+		09513BFB14540F6A0093370C /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 09513BFA14540F6A0093370C /* Person.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		09513BD514540F5D0093370C /* OldRaiseMan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OldRaiseMan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		09513BD914540F5D0093370C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		09513BDC14540F5D0093370C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		09513BDD14540F5D0093370C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		09513BDE14540F5D0093370C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		09513BE114540F5D0093370C /* OldRaiseMan-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OldRaiseMan-Info.plist"; sourceTree = "<group>"; };
+		09513BE314540F5D0093370C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		09513BE514540F5D0093370C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		09513BE714540F5D0093370C /* OldRaiseMan-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OldRaiseMan-Prefix.pch"; sourceTree = "<group>"; };
+		09513BE914540F5D0093370C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		09513BEB14540F5D0093370C /* MyDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyDocument.h; sourceTree = "<group>"; };
+		09513BEC14540F5D0093370C /* MyDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyDocument.m; sourceTree = "<group>"; };
+		09513BEF14540F5D0093370C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MyDocument.xib; sourceTree = "<group>"; };
+		09513BF214540F5D0093370C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		09513BF914540F6A0093370C /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Person.h; path = ../Person.h; sourceTree = "<group>"; };
+		09513BFA14540F6A0093370C /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Person.m; path = ../Person.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09513BD214540F5D0093370C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09513BDA14540F5D0093370C /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09513BCA14540F5D0093370C = {
+			isa = PBXGroup;
+			children = (
+				09513BDF14540F5D0093370C /* OldRaiseMan */,
+				09513BD814540F5D0093370C /* Frameworks */,
+				09513BD614540F5D0093370C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		09513BD614540F5D0093370C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09513BD514540F5D0093370C /* OldRaiseMan.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09513BD814540F5D0093370C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				09513BD914540F5D0093370C /* Cocoa.framework */,
+				09513BDB14540F5D0093370C /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		09513BDB14540F5D0093370C /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				09513BDC14540F5D0093370C /* AppKit.framework */,
+				09513BDD14540F5D0093370C /* CoreData.framework */,
+				09513BDE14540F5D0093370C /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		09513BDF14540F5D0093370C /* OldRaiseMan */ = {
+			isa = PBXGroup;
+			children = (
+				09513BF914540F6A0093370C /* Person.h */,
+				09513BFA14540F6A0093370C /* Person.m */,
+				09513BEB14540F5D0093370C /* MyDocument.h */,
+				09513BEC14540F5D0093370C /* MyDocument.m */,
+				09513BEE14540F5D0093370C /* MyDocument.xib */,
+				09513BF114540F5D0093370C /* MainMenu.xib */,
+				09513BE014540F5D0093370C /* Supporting Files */,
+			);
+			path = OldRaiseMan;
+			sourceTree = "<group>";
+		};
+		09513BE014540F5D0093370C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				09513BE114540F5D0093370C /* OldRaiseMan-Info.plist */,
+				09513BE214540F5D0093370C /* InfoPlist.strings */,
+				09513BE514540F5D0093370C /* main.m */,
+				09513BE714540F5D0093370C /* OldRaiseMan-Prefix.pch */,
+				09513BE814540F5D0093370C /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09513BD414540F5D0093370C /* OldRaiseMan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09513BF614540F5D0093370C /* Build configuration list for PBXNativeTarget "OldRaiseMan" */;
+			buildPhases = (
+				09513BD114540F5D0093370C /* Sources */,
+				09513BD214540F5D0093370C /* Frameworks */,
+				09513BD314540F5D0093370C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OldRaiseMan;
+			productName = OldRaiseMan;
+			productReference = 09513BD514540F5D0093370C /* OldRaiseMan.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09513BCC14540F5D0093370C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Tokyo Institute of Technology";
+			};
+			buildConfigurationList = 09513BCF14540F5D0093370C /* Build configuration list for PBXProject "OldRaiseMan" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 09513BCA14540F5D0093370C;
+			productRefGroup = 09513BD614540F5D0093370C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09513BD414540F5D0093370C /* OldRaiseMan */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09513BD314540F5D0093370C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09513BE414540F5D0093370C /* InfoPlist.strings in Resources */,
+				09513BEA14540F5D0093370C /* Credits.rtf in Resources */,
+				09513BF014540F5D0093370C /* MyDocument.xib in Resources */,
+				09513BF314540F5D0093370C /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09513BD114540F5D0093370C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09513BE614540F5D0093370C /* main.m in Sources */,
+				09513BED14540F5D0093370C /* MyDocument.m in Sources */,
+				09513BFB14540F6A0093370C /* Person.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		09513BE214540F5D0093370C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09513BE314540F5D0093370C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		09513BE814540F5D0093370C /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09513BE914540F5D0093370C /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		09513BEE14540F5D0093370C /* MyDocument.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09513BEF14540F5D0093370C /* en */,
+			);
+			name = MyDocument.xib;
+			sourceTree = "<group>";
+		};
+		09513BF114540F5D0093370C /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09513BF214540F5D0093370C /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		09513BF414540F5D0093370C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		09513BF514540F5D0093370C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		09513BF714540F5D0093370C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OldRaiseMan/OldRaiseMan-Prefix.pch";
+				INFOPLIST_FILE = "OldRaiseMan/OldRaiseMan-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		09513BF814540F5D0093370C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OldRaiseMan/OldRaiseMan-Prefix.pch";
+				INFOPLIST_FILE = "OldRaiseMan/OldRaiseMan-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09513BCF14540F5D0093370C /* Build configuration list for PBXProject "OldRaiseMan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09513BF414540F5D0093370C /* Debug */,
+				09513BF514540F5D0093370C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09513BF614540F5D0093370C /* Build configuration list for PBXNativeTarget "OldRaiseMan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09513BF714540F5D0093370C /* Debug */,
+				09513BF814540F5D0093370C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 09513BCC14540F5D0093370C /* Project object */;
+}

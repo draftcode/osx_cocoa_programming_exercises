@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0906EA7214511EB500B0C361 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0906EA7114511EB500B0C361 /* Cocoa.framework */; };
+		0906EA7C14511EB500B0C361 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0906EA7A14511EB500B0C361 /* InfoPlist.strings */; };
+		0906EA7E14511EB500B0C361 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0906EA7D14511EB500B0C361 /* main.m */; };
+		0906EA8214511EB500B0C361 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 0906EA8014511EB500B0C361 /* Credits.rtf */; };
+		0906EA8814511EB600B0C361 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0906EA8614511EB600B0C361 /* MainMenu.xib */; };
+		0906EA9014511ED500B0C361 /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0906EA8F14511ED500B0C361 /* AppController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0906EA6D14511EB500B0C361 /* KeyValueCoding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyValueCoding.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0906EA7114511EB500B0C361 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		0906EA7414511EB500B0C361 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		0906EA7514511EB500B0C361 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		0906EA7614511EB500B0C361 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0906EA7914511EB500B0C361 /* KeyValueCoding-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KeyValueCoding-Info.plist"; sourceTree = "<group>"; };
+		0906EA7B14511EB500B0C361 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0906EA7D14511EB500B0C361 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0906EA7F14511EB500B0C361 /* KeyValueCoding-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KeyValueCoding-Prefix.pch"; sourceTree = "<group>"; };
+		0906EA8114511EB500B0C361 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		0906EA8714511EB600B0C361 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		0906EA8E14511ED500B0C361 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
+		0906EA8F14511ED500B0C361 /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0906EA6A14511EB500B0C361 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0906EA7214511EB500B0C361 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0906EA6214511EB500B0C361 = {
+			isa = PBXGroup;
+			children = (
+				0906EA7714511EB500B0C361 /* KeyValueCoding */,
+				0906EA7014511EB500B0C361 /* Frameworks */,
+				0906EA6E14511EB500B0C361 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0906EA6E14511EB500B0C361 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0906EA6D14511EB500B0C361 /* KeyValueCoding.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0906EA7014511EB500B0C361 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0906EA7114511EB500B0C361 /* Cocoa.framework */,
+				0906EA7314511EB500B0C361 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0906EA7314511EB500B0C361 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0906EA7414511EB500B0C361 /* AppKit.framework */,
+				0906EA7514511EB500B0C361 /* CoreData.framework */,
+				0906EA7614511EB500B0C361 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		0906EA7714511EB500B0C361 /* KeyValueCoding */ = {
+			isa = PBXGroup;
+			children = (
+				0906EA8614511EB600B0C361 /* MainMenu.xib */,
+				0906EA8E14511ED500B0C361 /* AppController.h */,
+				0906EA8F14511ED500B0C361 /* AppController.m */,
+				0906EA7814511EB500B0C361 /* Supporting Files */,
+			);
+			path = KeyValueCoding;
+			sourceTree = "<group>";
+		};
+		0906EA7814511EB500B0C361 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0906EA7914511EB500B0C361 /* KeyValueCoding-Info.plist */,
+				0906EA7A14511EB500B0C361 /* InfoPlist.strings */,
+				0906EA7D14511EB500B0C361 /* main.m */,
+				0906EA7F14511EB500B0C361 /* KeyValueCoding-Prefix.pch */,
+				0906EA8014511EB500B0C361 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0906EA6C14511EB500B0C361 /* KeyValueCoding */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0906EA8B14511EB600B0C361 /* Build configuration list for PBXNativeTarget "KeyValueCoding" */;
+			buildPhases = (
+				0906EA6914511EB500B0C361 /* Sources */,
+				0906EA6A14511EB500B0C361 /* Frameworks */,
+				0906EA6B14511EB500B0C361 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeyValueCoding;
+			productName = KeyValueCoding;
+			productReference = 0906EA6D14511EB500B0C361 /* KeyValueCoding.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0906EA6414511EB500B0C361 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Tokyo Institute of Technology";
+			};
+			buildConfigurationList = 0906EA6714511EB500B0C361 /* Build configuration list for PBXProject "KeyValueCoding" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0906EA6214511EB500B0C361;
+			productRefGroup = 0906EA6E14511EB500B0C361 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0906EA6C14511EB500B0C361 /* KeyValueCoding */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0906EA6B14511EB500B0C361 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0906EA7C14511EB500B0C361 /* InfoPlist.strings in Resources */,
+				0906EA8214511EB500B0C361 /* Credits.rtf in Resources */,
+				0906EA8814511EB600B0C361 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0906EA6914511EB500B0C361 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0906EA7E14511EB500B0C361 /* main.m in Sources */,
+				0906EA9014511ED500B0C361 /* AppController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0906EA7A14511EB500B0C361 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0906EA7B14511EB500B0C361 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0906EA8014511EB500B0C361 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0906EA8114511EB500B0C361 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		0906EA8614511EB600B0C361 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0906EA8714511EB600B0C361 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0906EA8914511EB600B0C361 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0906EA8A14511EB600B0C361 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0906EA8C14511EB600B0C361 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KeyValueCoding/KeyValueCoding-Prefix.pch";
+				INFOPLIST_FILE = "KeyValueCoding/KeyValueCoding-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0906EA8D14511EB600B0C361 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KeyValueCoding/KeyValueCoding-Prefix.pch";
+				INFOPLIST_FILE = "KeyValueCoding/KeyValueCoding-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0906EA6714511EB500B0C361 /* Build configuration list for PBXProject "KeyValueCoding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0906EA8914511EB600B0C361 /* Debug */,
+				0906EA8A14511EB600B0C361 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0906EA8B14511EB600B0C361 /* Build configuration list for PBXNativeTarget "KeyValueCoding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0906EA8C14511EB600B0C361 /* Debug */,
+				0906EA8D14511EB600B0C361 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0906EA6414511EB500B0C361 /* Project object */;
+}

@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0940D695145BDCAD00D40E9D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0940D694145BDCAD00D40E9D /* Cocoa.framework */; };
+		0940D69F145BDCAD00D40E9D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0940D69D145BDCAD00D40E9D /* InfoPlist.strings */; };
+		0940D6A1145BDCAD00D40E9D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0940D6A0145BDCAD00D40E9D /* main.m */; };
+		0940D6A5145BDCAD00D40E9D /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 0940D6A3145BDCAD00D40E9D /* Credits.rtf */; };
+		0940D6AB145BDCAD00D40E9D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0940D6A9145BDCAD00D40E9D /* MainMenu.xib */; };
+		0940D6B3145BDCDA00D40E9D /* Polynomial.m in Sources */ = {isa = PBXBuildFile; fileRef = 0940D6B2145BDCDA00D40E9D /* Polynomial.m */; };
+		0940D6B6145BDF9300D40E9D /* PolynomialView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0940D6B5145BDF9300D40E9D /* PolynomialView.m */; };
+		094385B9145C1C090018B8CB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 094385B8145C1C090018B8CB /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0940D690145BDCAD00D40E9D /* Polynomials.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Polynomials.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0940D694145BDCAD00D40E9D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		0940D697145BDCAD00D40E9D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		0940D698145BDCAD00D40E9D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		0940D699145BDCAD00D40E9D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0940D69C145BDCAD00D40E9D /* Polynomials-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Polynomials-Info.plist"; sourceTree = "<group>"; };
+		0940D69E145BDCAD00D40E9D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0940D6A0145BDCAD00D40E9D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0940D6A2145BDCAD00D40E9D /* Polynomials-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Polynomials-Prefix.pch"; sourceTree = "<group>"; };
+		0940D6A4145BDCAD00D40E9D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		0940D6AA145BDCAD00D40E9D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		0940D6B1145BDCDA00D40E9D /* Polynomial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Polynomial.h; sourceTree = "<group>"; };
+		0940D6B2145BDCDA00D40E9D /* Polynomial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Polynomial.m; sourceTree = "<group>"; };
+		0940D6B4145BDF9300D40E9D /* PolynomialView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PolynomialView.h; sourceTree = "<group>"; };
+		0940D6B5145BDF9300D40E9D /* PolynomialView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PolynomialView.m; sourceTree = "<group>"; };
+		094385B8145C1C090018B8CB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = /System/Library/Frameworks/QuartzCore.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0940D68D145BDCAD00D40E9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0940D695145BDCAD00D40E9D /* Cocoa.framework in Frameworks */,
+				094385B9145C1C090018B8CB /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0940D685145BDCAD00D40E9D = {
+			isa = PBXGroup;
+			children = (
+				0940D69A145BDCAD00D40E9D /* Polynomials */,
+				0940D693145BDCAD00D40E9D /* Frameworks */,
+				0940D691145BDCAD00D40E9D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0940D691145BDCAD00D40E9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0940D690145BDCAD00D40E9D /* Polynomials.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0940D693145BDCAD00D40E9D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0940D694145BDCAD00D40E9D /* Cocoa.framework */,
+				0940D696145BDCAD00D40E9D /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0940D696145BDCAD00D40E9D /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				094385B8145C1C090018B8CB /* QuartzCore.framework */,
+				0940D697145BDCAD00D40E9D /* AppKit.framework */,
+				0940D698145BDCAD00D40E9D /* CoreData.framework */,
+				0940D699145BDCAD00D40E9D /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		0940D69A145BDCAD00D40E9D /* Polynomials */ = {
+			isa = PBXGroup;
+			children = (
+				0940D6A9145BDCAD00D40E9D /* MainMenu.xib */,
+				0940D6B1145BDCDA00D40E9D /* Polynomial.h */,
+				0940D6B2145BDCDA00D40E9D /* Polynomial.m */,
+				0940D6B4145BDF9300D40E9D /* PolynomialView.h */,
+				0940D6B5145BDF9300D40E9D /* PolynomialView.m */,
+				0940D69B145BDCAD00D40E9D /* Supporting Files */,
+			);
+			path = Polynomials;
+			sourceTree = "<group>";
+		};
+		0940D69B145BDCAD00D40E9D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0940D69C145BDCAD00D40E9D /* Polynomials-Info.plist */,
+				0940D69D145BDCAD00D40E9D /* InfoPlist.strings */,
+				0940D6A0145BDCAD00D40E9D /* main.m */,
+				0940D6A2145BDCAD00D40E9D /* Polynomials-Prefix.pch */,
+				0940D6A3145BDCAD00D40E9D /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0940D68F145BDCAD00D40E9D /* Polynomials */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0940D6AE145BDCAD00D40E9D /* Build configuration list for PBXNativeTarget "Polynomials" */;
+			buildPhases = (
+				0940D68C145BDCAD00D40E9D /* Sources */,
+				0940D68D145BDCAD00D40E9D /* Frameworks */,
+				0940D68E145BDCAD00D40E9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Polynomials;
+			productName = Polynomials;
+			productReference = 0940D690145BDCAD00D40E9D /* Polynomials.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0940D687145BDCAD00D40E9D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Tokyo Institute of Technology";
+			};
+			buildConfigurationList = 0940D68A145BDCAD00D40E9D /* Build configuration list for PBXProject "Polynomials" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0940D685145BDCAD00D40E9D;
+			productRefGroup = 0940D691145BDCAD00D40E9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0940D68F145BDCAD00D40E9D /* Polynomials */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0940D68E145BDCAD00D40E9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0940D69F145BDCAD00D40E9D /* InfoPlist.strings in Resources */,
+				0940D6A5145BDCAD00D40E9D /* Credits.rtf in Resources */,
+				0940D6AB145BDCAD00D40E9D /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0940D68C145BDCAD00D40E9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0940D6A1145BDCAD00D40E9D /* main.m in Sources */,
+				0940D6B3145BDCDA00D40E9D /* Polynomial.m in Sources */,
+				0940D6B6145BDF9300D40E9D /* PolynomialView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0940D69D145BDCAD00D40E9D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0940D69E145BDCAD00D40E9D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0940D6A3145BDCAD00D40E9D /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0940D6A4145BDCAD00D40E9D /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		0940D6A9145BDCAD00D40E9D /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0940D6AA145BDCAD00D40E9D /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0940D6AC145BDCAD00D40E9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0940D6AD145BDCAD00D40E9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0940D6AF145BDCAD00D40E9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Polynomials/Polynomials-Prefix.pch";
+				INFOPLIST_FILE = "Polynomials/Polynomials-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0940D6B0145BDCAD00D40E9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Polynomials/Polynomials-Prefix.pch";
+				INFOPLIST_FILE = "Polynomials/Polynomials-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0940D68A145BDCAD00D40E9D /* Build configuration list for PBXProject "Polynomials" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0940D6AC145BDCAD00D40E9D /* Debug */,
+				0940D6AD145BDCAD00D40E9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0940D6AE145BDCAD00D40E9D /* Build configuration list for PBXNativeTarget "Polynomials" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0940D6AF145BDCAD00D40E9D /* Debug */,
+				0940D6B0145BDCAD00D40E9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0940D687145BDCAD00D40E9D /* Project object */;
+}

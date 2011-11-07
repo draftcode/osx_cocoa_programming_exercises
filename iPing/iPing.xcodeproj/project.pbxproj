@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0943862D145C334D0018B8CB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0943862C145C334D0018B8CB /* Cocoa.framework */; };
+		09438637145C334D0018B8CB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 09438635145C334D0018B8CB /* InfoPlist.strings */; };
+		09438639145C334D0018B8CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09438638145C334D0018B8CB /* main.m */; };
+		0943863D145C334D0018B8CB /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 0943863B145C334D0018B8CB /* Credits.rtf */; };
+		09438643145C334E0018B8CB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09438641145C334E0018B8CB /* MainMenu.xib */; };
+		0943864B145C336E0018B8CB /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0943864A145C336E0018B8CB /* AppController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		09438628145C334D0018B8CB /* iPing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0943862C145C334D0018B8CB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		0943862F145C334D0018B8CB /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		09438630145C334D0018B8CB /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		09438631145C334D0018B8CB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		09438634145C334D0018B8CB /* iPing-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iPing-Info.plist"; sourceTree = "<group>"; };
+		09438636145C334D0018B8CB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		09438638145C334D0018B8CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0943863A145C334D0018B8CB /* iPing-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iPing-Prefix.pch"; sourceTree = "<group>"; };
+		0943863C145C334D0018B8CB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		09438642145C334E0018B8CB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		09438649145C336E0018B8CB /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
+		0943864A145C336E0018B8CB /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09438625145C334D0018B8CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0943862D145C334D0018B8CB /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0943861D145C334D0018B8CB = {
+			isa = PBXGroup;
+			children = (
+				09438632145C334D0018B8CB /* iPing */,
+				0943862B145C334D0018B8CB /* Frameworks */,
+				09438629145C334D0018B8CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		09438629145C334D0018B8CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09438628145C334D0018B8CB /* iPing.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0943862B145C334D0018B8CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0943862C145C334D0018B8CB /* Cocoa.framework */,
+				0943862E145C334D0018B8CB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0943862E145C334D0018B8CB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0943862F145C334D0018B8CB /* AppKit.framework */,
+				09438630145C334D0018B8CB /* CoreData.framework */,
+				09438631145C334D0018B8CB /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		09438632145C334D0018B8CB /* iPing */ = {
+			isa = PBXGroup;
+			children = (
+				09438641145C334E0018B8CB /* MainMenu.xib */,
+				09438649145C336E0018B8CB /* AppController.h */,
+				0943864A145C336E0018B8CB /* AppController.m */,
+				09438633145C334D0018B8CB /* Supporting Files */,
+			);
+			path = iPing;
+			sourceTree = "<group>";
+		};
+		09438633145C334D0018B8CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				09438634145C334D0018B8CB /* iPing-Info.plist */,
+				09438635145C334D0018B8CB /* InfoPlist.strings */,
+				09438638145C334D0018B8CB /* main.m */,
+				0943863A145C334D0018B8CB /* iPing-Prefix.pch */,
+				0943863B145C334D0018B8CB /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09438627145C334D0018B8CB /* iPing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09438646145C334E0018B8CB /* Build configuration list for PBXNativeTarget "iPing" */;
+			buildPhases = (
+				09438624145C334D0018B8CB /* Sources */,
+				09438625145C334D0018B8CB /* Frameworks */,
+				09438626145C334D0018B8CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iPing;
+			productName = iPing;
+			productReference = 09438628145C334D0018B8CB /* iPing.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0943861F145C334D0018B8CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Tokyo Institute of Technology";
+			};
+			buildConfigurationList = 09438622145C334D0018B8CB /* Build configuration list for PBXProject "iPing" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0943861D145C334D0018B8CB;
+			productRefGroup = 09438629145C334D0018B8CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09438627145C334D0018B8CB /* iPing */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09438626145C334D0018B8CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09438637145C334D0018B8CB /* InfoPlist.strings in Resources */,
+				0943863D145C334D0018B8CB /* Credits.rtf in Resources */,
+				09438643145C334E0018B8CB /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09438624145C334D0018B8CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09438639145C334D0018B8CB /* main.m in Sources */,
+				0943864B145C336E0018B8CB /* AppController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		09438635145C334D0018B8CB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09438636145C334D0018B8CB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0943863B145C334D0018B8CB /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0943863C145C334D0018B8CB /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		09438641145C334E0018B8CB /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09438642145C334E0018B8CB /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		09438644145C334E0018B8CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		09438645145C334E0018B8CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		09438647145C334E0018B8CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iPing/iPing-Prefix.pch";
+				INFOPLIST_FILE = "iPing/iPing-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		09438648145C334E0018B8CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iPing/iPing-Prefix.pch";
+				INFOPLIST_FILE = "iPing/iPing-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09438622145C334D0018B8CB /* Build configuration list for PBXProject "iPing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09438644145C334E0018B8CB /* Debug */,
+				09438645145C334E0018B8CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09438646145C334E0018B8CB /* Build configuration list for PBXNativeTarget "iPing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09438647145C334E0018B8CB /* Debug */,
+				09438648145C334E0018B8CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0943861F145C334D0018B8CB /* Project object */;
+}

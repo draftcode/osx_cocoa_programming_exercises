@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'DrawOval' target in the 'DrawOval' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

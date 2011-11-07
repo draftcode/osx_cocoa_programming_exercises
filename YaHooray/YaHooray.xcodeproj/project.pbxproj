@@ -1,0 +1,297 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09976C731459D69D008D0774 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09976C721459D69D008D0774 /* Cocoa.framework */; };
+		09976C7D1459D69D008D0774 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 09976C7B1459D69D008D0774 /* InfoPlist.strings */; };
+		09976C7F1459D69D008D0774 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09976C7E1459D69D008D0774 /* main.m */; };
+		09976C831459D69D008D0774 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 09976C811459D69D008D0774 /* Credits.rtf */; };
+		09976C891459D69E008D0774 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09976C871459D69E008D0774 /* MainMenu.xib */; };
+		09976C911459D6D1008D0774 /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09976C901459D6D1008D0774 /* AppController.m */; };
+		09976C931459DDBB008D0774 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09976C921459DDBB008D0774 /* WebKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		09976C6E1459D69D008D0774 /* YaHooray.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YaHooray.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		09976C721459D69D008D0774 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		09976C751459D69D008D0774 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		09976C761459D69D008D0774 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		09976C771459D69D008D0774 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		09976C7A1459D69D008D0774 /* YaHooray-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YaHooray-Info.plist"; sourceTree = "<group>"; };
+		09976C7C1459D69D008D0774 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		09976C7E1459D69D008D0774 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		09976C801459D69D008D0774 /* YaHooray-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YaHooray-Prefix.pch"; sourceTree = "<group>"; };
+		09976C821459D69D008D0774 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		09976C881459D69E008D0774 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		09976C8F1459D6D1008D0774 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
+		09976C901459D6D1008D0774 /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
+		09976C921459DDBB008D0774 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = ../../../../../../System/Library/Frameworks/WebKit.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09976C6B1459D69D008D0774 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09976C731459D69D008D0774 /* Cocoa.framework in Frameworks */,
+				09976C931459DDBB008D0774 /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09976C631459D69D008D0774 = {
+			isa = PBXGroup;
+			children = (
+				09976C781459D69D008D0774 /* YaHooray */,
+				09976C711459D69D008D0774 /* Frameworks */,
+				09976C6F1459D69D008D0774 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		09976C6F1459D69D008D0774 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09976C6E1459D69D008D0774 /* YaHooray.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09976C711459D69D008D0774 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				09976C721459D69D008D0774 /* Cocoa.framework */,
+				09976C741459D69D008D0774 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		09976C741459D69D008D0774 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				09976C921459DDBB008D0774 /* WebKit.framework */,
+				09976C751459D69D008D0774 /* AppKit.framework */,
+				09976C761459D69D008D0774 /* CoreData.framework */,
+				09976C771459D69D008D0774 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		09976C781459D69D008D0774 /* YaHooray */ = {
+			isa = PBXGroup;
+			children = (
+				09976C871459D69E008D0774 /* MainMenu.xib */,
+				09976C8F1459D6D1008D0774 /* AppController.h */,
+				09976C901459D6D1008D0774 /* AppController.m */,
+				09976C791459D69D008D0774 /* Supporting Files */,
+			);
+			path = YaHooray;
+			sourceTree = "<group>";
+		};
+		09976C791459D69D008D0774 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				09976C7A1459D69D008D0774 /* YaHooray-Info.plist */,
+				09976C7B1459D69D008D0774 /* InfoPlist.strings */,
+				09976C7E1459D69D008D0774 /* main.m */,
+				09976C801459D69D008D0774 /* YaHooray-Prefix.pch */,
+				09976C811459D69D008D0774 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09976C6D1459D69D008D0774 /* YaHooray */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09976C8C1459D69E008D0774 /* Build configuration list for PBXNativeTarget "YaHooray" */;
+			buildPhases = (
+				09976C6A1459D69D008D0774 /* Sources */,
+				09976C6B1459D69D008D0774 /* Frameworks */,
+				09976C6C1459D69D008D0774 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YaHooray;
+			productName = YaHooray;
+			productReference = 09976C6E1459D69D008D0774 /* YaHooray.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09976C651459D69D008D0774 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Tokyo Institute of Technology";
+			};
+			buildConfigurationList = 09976C681459D69D008D0774 /* Build configuration list for PBXProject "YaHooray" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 09976C631459D69D008D0774;
+			productRefGroup = 09976C6F1459D69D008D0774 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09976C6D1459D69D008D0774 /* YaHooray */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09976C6C1459D69D008D0774 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09976C7D1459D69D008D0774 /* InfoPlist.strings in Resources */,
+				09976C831459D69D008D0774 /* Credits.rtf in Resources */,
+				09976C891459D69E008D0774 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09976C6A1459D69D008D0774 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09976C7F1459D69D008D0774 /* main.m in Sources */,
+				09976C911459D6D1008D0774 /* AppController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		09976C7B1459D69D008D0774 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09976C7C1459D69D008D0774 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		09976C811459D69D008D0774 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09976C821459D69D008D0774 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		09976C871459D69E008D0774 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09976C881459D69E008D0774 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		09976C8A1459D69E008D0774 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		09976C8B1459D69E008D0774 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		09976C8D1459D69E008D0774 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YaHooray/YaHooray-Prefix.pch";
+				INFOPLIST_FILE = "YaHooray/YaHooray-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		09976C8E1459D69E008D0774 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YaHooray/YaHooray-Prefix.pch";
+				INFOPLIST_FILE = "YaHooray/YaHooray-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09976C681459D69D008D0774 /* Build configuration list for PBXProject "YaHooray" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09976C8A1459D69E008D0774 /* Debug */,
+				09976C8B1459D69E008D0774 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09976C8C1459D69E008D0774 /* Build configuration list for PBXNativeTarget "YaHooray" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09976C8D1459D69E008D0774 /* Debug */,
+				09976C8E1459D69E008D0774 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 09976C651459D69D008D0774 /* Project object */;
+}

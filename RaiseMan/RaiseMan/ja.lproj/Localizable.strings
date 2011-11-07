@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  RaiseMan
+
+  Created by Masaya Suzuki on 11/10/24.
+  Copyright 2011年 Tokyo Institute of Technology. All rights reserved.
+*/
+"DELETE" = "削除";
+"SURE_DELETE" = "本当に%d件のレコードを削除してもよろしいですか?";
+"CANCEL" = "キャンセル";

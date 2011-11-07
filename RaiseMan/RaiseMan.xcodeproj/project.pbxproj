@@ -1,0 +1,376 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0918148F14554A1000EA1241 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0918148D14554A1000EA1241 /* Localizable.strings */; };
+		094B2F9F145432EA00D5BB87 /* Cancel.icns in Resources */ = {isa = PBXBuildFile; fileRef = 094B2F9E145432EA00D5BB87 /* Cancel.icns */; };
+		094B2FDB14544E6200D5BB87 /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 094B2FDA14544E6200D5BB87 /* AppController.m */; };
+		094B2FDF14544F7F00D5BB87 /* PreferenceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 094B2FDE14544F7F00D5BB87 /* PreferenceController.m */; };
+		094B2FE114544FDF00D5BB87 /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = 094B2FE014544FDF00D5BB87 /* Preferences.xib */; };
+		094B2FE3145466DA00D5BB87 /* About.xib in Resources */ = {isa = PBXBuildFile; fileRef = 094B2FE2145466DA00D5BB87 /* About.xib */; };
+		095376DD1451BD14005E926B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 095376DC1451BD14005E926B /* Cocoa.framework */; };
+		095376E71451BD14005E926B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 095376E51451BD14005E926B /* InfoPlist.strings */; };
+		095376E91451BD14005E926B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 095376E81451BD14005E926B /* main.m */; };
+		095376ED1451BD14005E926B /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 095376EB1451BD14005E926B /* Credits.rtf */; };
+		095376F01451BD14005E926B /* MyDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 095376EF1451BD14005E926B /* MyDocument.m */; };
+		095376F31451BD14005E926B /* MyDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = 095376F11451BD14005E926B /* MyDocument.xib */; };
+		095376F61451BD15005E926B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 095376F41451BD15005E926B /* MainMenu.xib */; };
+		095376F91451BD15005E926B /* MyDocument.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 095376F71451BD15005E926B /* MyDocument.xcdatamodeld */; };
+		095377011451BD22005E926B /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 095377001451BD22005E926B /* Person.m */; };
+		09976C611459C54B008D0774 /* PeopleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 09976C601459C54B008D0774 /* PeopleView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0918148C1455493400EA1241 /* ja */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ja; path = ja.lproj/MyDocument.xib; sourceTree = "<group>"; };
+		0918148E14554A1000EA1241 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		0918149014554A6200EA1241 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		094B2F9E145432EA00D5BB87 /* Cancel.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = Cancel.icns; path = ../Cancel.icns; sourceTree = "<group>"; };
+		094B2FD914544E6200D5BB87 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppController.h; path = ../AppController.h; sourceTree = "<group>"; };
+		094B2FDA14544E6200D5BB87 /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppController.m; path = ../AppController.m; sourceTree = "<group>"; };
+		094B2FDD14544F7F00D5BB87 /* PreferenceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferenceController.h; sourceTree = "<group>"; };
+		094B2FDE14544F7F00D5BB87 /* PreferenceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferenceController.m; sourceTree = "<group>"; };
+		094B2FE014544FDF00D5BB87 /* Preferences.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Preferences.xib; sourceTree = "<group>"; };
+		094B2FE2145466DA00D5BB87 /* About.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = About.xib; sourceTree = "<group>"; };
+		095376D81451BD14005E926B /* RaiseMan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RaiseMan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		095376DC1451BD14005E926B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		095376DF1451BD14005E926B /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		095376E01451BD14005E926B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		095376E11451BD14005E926B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		095376E41451BD14005E926B /* RaiseMan-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RaiseMan-Info.plist"; sourceTree = "<group>"; };
+		095376E61451BD14005E926B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		095376E81451BD14005E926B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		095376EA1451BD14005E926B /* RaiseMan-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RaiseMan-Prefix.pch"; sourceTree = "<group>"; };
+		095376EC1451BD14005E926B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		095376EE1451BD14005E926B /* MyDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyDocument.h; sourceTree = "<group>"; };
+		095376EF1451BD14005E926B /* MyDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyDocument.m; sourceTree = "<group>"; };
+		095376F21451BD14005E926B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MyDocument.xib; sourceTree = "<group>"; };
+		095376F51451BD15005E926B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		095376F81451BD15005E926B /* MyDocument.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyDocument.xcdatamodel; sourceTree = "<group>"; };
+		095376FF1451BD22005E926B /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Person.h; path = ../Person.h; sourceTree = "<group>"; };
+		095377001451BD22005E926B /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Person.m; path = ../Person.m; sourceTree = "<group>"; };
+		09976C5F1459C54B008D0774 /* PeopleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeopleView.h; sourceTree = "<group>"; };
+		09976C601459C54B008D0774 /* PeopleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeopleView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		095376D51451BD14005E926B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				095376DD1451BD14005E926B /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		095376CD1451BD14005E926B = {
+			isa = PBXGroup;
+			children = (
+				095376E21451BD14005E926B /* RaiseMan */,
+				095376DB1451BD14005E926B /* Frameworks */,
+				095376D91451BD14005E926B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		095376D91451BD14005E926B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				095376D81451BD14005E926B /* RaiseMan.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		095376DB1451BD14005E926B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				095376DC1451BD14005E926B /* Cocoa.framework */,
+				095376DE1451BD14005E926B /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		095376DE1451BD14005E926B /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				095376DF1451BD14005E926B /* AppKit.framework */,
+				095376E01451BD14005E926B /* CoreData.framework */,
+				095376E11451BD14005E926B /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		095376E21451BD14005E926B /* RaiseMan */ = {
+			isa = PBXGroup;
+			children = (
+				094B2FD914544E6200D5BB87 /* AppController.h */,
+				094B2FDA14544E6200D5BB87 /* AppController.m */,
+				094B2FDD14544F7F00D5BB87 /* PreferenceController.h */,
+				094B2FE014544FDF00D5BB87 /* Preferences.xib */,
+				094B2FE2145466DA00D5BB87 /* About.xib */,
+				094B2FDE14544F7F00D5BB87 /* PreferenceController.m */,
+				094B2F9E145432EA00D5BB87 /* Cancel.icns */,
+				095376FF1451BD22005E926B /* Person.h */,
+				095377001451BD22005E926B /* Person.m */,
+				095376EE1451BD14005E926B /* MyDocument.h */,
+				095376EF1451BD14005E926B /* MyDocument.m */,
+				09976C5F1459C54B008D0774 /* PeopleView.h */,
+				09976C601459C54B008D0774 /* PeopleView.m */,
+				095376F11451BD14005E926B /* MyDocument.xib */,
+				0918148D14554A1000EA1241 /* Localizable.strings */,
+				095376F41451BD15005E926B /* MainMenu.xib */,
+				095376F71451BD15005E926B /* MyDocument.xcdatamodeld */,
+				095376E31451BD14005E926B /* Supporting Files */,
+			);
+			path = RaiseMan;
+			sourceTree = "<group>";
+		};
+		095376E31451BD14005E926B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				095376E41451BD14005E926B /* RaiseMan-Info.plist */,
+				095376E51451BD14005E926B /* InfoPlist.strings */,
+				095376E81451BD14005E926B /* main.m */,
+				095376EA1451BD14005E926B /* RaiseMan-Prefix.pch */,
+				095376EB1451BD14005E926B /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		095376D71451BD14005E926B /* RaiseMan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 095376FC1451BD15005E926B /* Build configuration list for PBXNativeTarget "RaiseMan" */;
+			buildPhases = (
+				095376D41451BD14005E926B /* Sources */,
+				095376D51451BD14005E926B /* Frameworks */,
+				095376D61451BD14005E926B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RaiseMan;
+			productName = RaiseMan;
+			productReference = 095376D81451BD14005E926B /* RaiseMan.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		095376CF1451BD14005E926B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Tokyo Institute of Technology";
+			};
+			buildConfigurationList = 095376D21451BD14005E926B /* Build configuration list for PBXProject "RaiseMan" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				ja,
+			);
+			mainGroup = 095376CD1451BD14005E926B;
+			productRefGroup = 095376D91451BD14005E926B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				095376D71451BD14005E926B /* RaiseMan */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		095376D61451BD14005E926B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				095376E71451BD14005E926B /* InfoPlist.strings in Resources */,
+				095376ED1451BD14005E926B /* Credits.rtf in Resources */,
+				095376F31451BD14005E926B /* MyDocument.xib in Resources */,
+				095376F61451BD15005E926B /* MainMenu.xib in Resources */,
+				094B2F9F145432EA00D5BB87 /* Cancel.icns in Resources */,
+				094B2FE114544FDF00D5BB87 /* Preferences.xib in Resources */,
+				094B2FE3145466DA00D5BB87 /* About.xib in Resources */,
+				0918148F14554A1000EA1241 /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		095376D41451BD14005E926B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				095376E91451BD14005E926B /* main.m in Sources */,
+				095376F01451BD14005E926B /* MyDocument.m in Sources */,
+				095376F91451BD15005E926B /* MyDocument.xcdatamodeld in Sources */,
+				095377011451BD22005E926B /* Person.m in Sources */,
+				094B2FDB14544E6200D5BB87 /* AppController.m in Sources */,
+				094B2FDF14544F7F00D5BB87 /* PreferenceController.m in Sources */,
+				09976C611459C54B008D0774 /* PeopleView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0918148D14554A1000EA1241 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0918148E14554A1000EA1241 /* en */,
+				0918149014554A6200EA1241 /* ja */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		095376E51451BD14005E926B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				095376E61451BD14005E926B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		095376EB1451BD14005E926B /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				095376EC1451BD14005E926B /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		095376F11451BD14005E926B /* MyDocument.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				095376F21451BD14005E926B /* en */,
+				0918148C1455493400EA1241 /* ja */,
+			);
+			name = MyDocument.xib;
+			sourceTree = "<group>";
+		};
+		095376F41451BD15005E926B /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				095376F51451BD15005E926B /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		095376FA1451BD15005E926B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		095376FB1451BD15005E926B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		095376FD1451BD15005E926B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RaiseMan/RaiseMan-Prefix.pch";
+				INFOPLIST_FILE = "RaiseMan/RaiseMan-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		095376FE1451BD15005E926B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RaiseMan/RaiseMan-Prefix.pch";
+				INFOPLIST_FILE = "RaiseMan/RaiseMan-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		095376D21451BD14005E926B /* Build configuration list for PBXProject "RaiseMan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				095376FA1451BD15005E926B /* Debug */,
+				095376FB1451BD15005E926B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		095376FC1451BD15005E926B /* Build configuration list for PBXNativeTarget "RaiseMan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				095376FD1451BD15005E926B /* Debug */,
+				095376FE1451BD15005E926B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		095376F71451BD15005E926B /* MyDocument.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				095376F81451BD15005E926B /* MyDocument.xcdatamodel */,
+			);
+			currentVersion = 095376F81451BD15005E926B /* MyDocument.xcdatamodel */;
+			path = MyDocument.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 095376CF1451BD14005E926B /* Project object */;
+}

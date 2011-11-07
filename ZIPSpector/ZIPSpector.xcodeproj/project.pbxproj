@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		094385FE145C2EA20018B8CB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 094385FD145C2EA20018B8CB /* Cocoa.framework */; };
+		09438608145C2EA20018B8CB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 09438606145C2EA20018B8CB /* InfoPlist.strings */; };
+		0943860A145C2EA20018B8CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09438609145C2EA20018B8CB /* main.m */; };
+		0943860E145C2EA20018B8CB /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 0943860C145C2EA20018B8CB /* Credits.rtf */; };
+		09438611145C2EA20018B8CB /* MyDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 09438610145C2EA20018B8CB /* MyDocument.m */; };
+		09438614145C2EA20018B8CB /* MyDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09438612145C2EA20018B8CB /* MyDocument.xib */; };
+		09438617145C2EA30018B8CB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09438615145C2EA30018B8CB /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		094385F9145C2EA20018B8CB /* ZIPSpector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZIPSpector.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		094385FD145C2EA20018B8CB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		09438600145C2EA20018B8CB /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		09438601145C2EA20018B8CB /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		09438602145C2EA20018B8CB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		09438605145C2EA20018B8CB /* ZIPSpector-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ZIPSpector-Info.plist"; sourceTree = "<group>"; };
+		09438607145C2EA20018B8CB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		09438609145C2EA20018B8CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0943860B145C2EA20018B8CB /* ZIPSpector-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZIPSpector-Prefix.pch"; sourceTree = "<group>"; };
+		0943860D145C2EA20018B8CB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		0943860F145C2EA20018B8CB /* MyDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyDocument.h; sourceTree = "<group>"; };
+		09438610145C2EA20018B8CB /* MyDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyDocument.m; sourceTree = "<group>"; };
+		09438613145C2EA20018B8CB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MyDocument.xib; sourceTree = "<group>"; };
+		09438616145C2EA30018B8CB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		094385F6145C2EA20018B8CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				094385FE145C2EA20018B8CB /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		094385EE145C2EA20018B8CB = {
+			isa = PBXGroup;
+			children = (
+				09438603145C2EA20018B8CB /* ZIPSpector */,
+				094385FC145C2EA20018B8CB /* Frameworks */,
+				094385FA145C2EA20018B8CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		094385FA145C2EA20018B8CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				094385F9145C2EA20018B8CB /* ZIPSpector.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		094385FC145C2EA20018B8CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				094385FD145C2EA20018B8CB /* Cocoa.framework */,
+				094385FF145C2EA20018B8CB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		094385FF145C2EA20018B8CB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				09438600145C2EA20018B8CB /* AppKit.framework */,
+				09438601145C2EA20018B8CB /* CoreData.framework */,
+				09438602145C2EA20018B8CB /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		09438603145C2EA20018B8CB /* ZIPSpector */ = {
+			isa = PBXGroup;
+			children = (
+				0943860F145C2EA20018B8CB /* MyDocument.h */,
+				09438610145C2EA20018B8CB /* MyDocument.m */,
+				09438612145C2EA20018B8CB /* MyDocument.xib */,
+				09438615145C2EA30018B8CB /* MainMenu.xib */,
+				09438604145C2EA20018B8CB /* Supporting Files */,
+			);
+			path = ZIPSpector;
+			sourceTree = "<group>";
+		};
+		09438604145C2EA20018B8CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				09438605145C2EA20018B8CB /* ZIPSpector-Info.plist */,
+				09438606145C2EA20018B8CB /* InfoPlist.strings */,
+				09438609145C2EA20018B8CB /* main.m */,
+				0943860B145C2EA20018B8CB /* ZIPSpector-Prefix.pch */,
+				0943860C145C2EA20018B8CB /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		094385F8145C2EA20018B8CB /* ZIPSpector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0943861A145C2EA30018B8CB /* Build configuration list for PBXNativeTarget "ZIPSpector" */;
+			buildPhases = (
+				094385F5145C2EA20018B8CB /* Sources */,
+				094385F6145C2EA20018B8CB /* Frameworks */,
+				094385F7145C2EA20018B8CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZIPSpector;
+			productName = ZIPSpector;
+			productReference = 094385F9145C2EA20018B8CB /* ZIPSpector.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		094385F0145C2EA20018B8CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Tokyo Institute of Technology";
+			};
+			buildConfigurationList = 094385F3145C2EA20018B8CB /* Build configuration list for PBXProject "ZIPSpector" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 094385EE145C2EA20018B8CB;
+			productRefGroup = 094385FA145C2EA20018B8CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				094385F8145C2EA20018B8CB /* ZIPSpector */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		094385F7145C2EA20018B8CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09438608145C2EA20018B8CB /* InfoPlist.strings in Resources */,
+				0943860E145C2EA20018B8CB /* Credits.rtf in Resources */,
+				09438614145C2EA20018B8CB /* MyDocument.xib in Resources */,
+				09438617145C2EA30018B8CB /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		094385F5145C2EA20018B8CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0943860A145C2EA20018B8CB /* main.m in Sources */,
+				09438611145C2EA20018B8CB /* MyDocument.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		09438606145C2EA20018B8CB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09438607145C2EA20018B8CB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0943860C145C2EA20018B8CB /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0943860D145C2EA20018B8CB /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		09438612145C2EA20018B8CB /* MyDocument.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09438613145C2EA20018B8CB /* en */,
+			);
+			name = MyDocument.xib;
+			sourceTree = "<group>";
+		};
+		09438615145C2EA30018B8CB /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09438616145C2EA30018B8CB /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		09438618145C2EA30018B8CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		09438619145C2EA30018B8CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0943861B145C2EA30018B8CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZIPSpector/ZIPSpector-Prefix.pch";
+				INFOPLIST_FILE = "ZIPSpector/ZIPSpector-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0943861C145C2EA30018B8CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZIPSpector/ZIPSpector-Prefix.pch";
+				INFOPLIST_FILE = "ZIPSpector/ZIPSpector-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		094385F3145C2EA20018B8CB /* Build configuration list for PBXProject "ZIPSpector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09438618145C2EA30018B8CB /* Debug */,
+				09438619145C2EA30018B8CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0943861A145C2EA30018B8CB /* Build configuration list for PBXNativeTarget "ZIPSpector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0943861B145C2EA30018B8CB /* Debug */,
+				0943861C145C2EA30018B8CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 094385F0145C2EA20018B8CB /* Project object */;
+}
